@@ -21,6 +21,9 @@ _stt.py you don't have to touch it, the assistant works without it
 
 start_assistant.py = Starting the Assistant
 
+
+ALSO DON'T FORGET TO DOWNLOAD THE VOSK MODEL
+
 ASSISTANT IN RUSSIAN!
 If you want to use other languages, you need to download the VOSK model of your language, and delete the model of the Russian language, and edit the commands in config.py and main.pyw!
 
