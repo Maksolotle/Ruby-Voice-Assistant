@@ -30,7 +30,7 @@ now = datetime.datetime.now()
 hour = now.hour
 
 # openai_api_key
-openai.api_key = ваш апи ключ, необязатленьно
+#openai.api_key = ваш апи ключ, необязатленьно
 
 #response = openai.Completion.create( 
 #model="text-davinci-003", 
