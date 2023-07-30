@@ -1,62 +1,44 @@
-ENG:
-Voice Assistant Maks
-Beta-test 0.0.2
-In order to run it, you need:
-Insert this folder in C:/, or change the path for the "main.pyw" file in the "start_assistant.py" file
-Next, you need to install the modules:
-1. Sounddevice (pip install sounddevice)
-2. Vosk (pip install vosk)
-3. OpenAi (pip install openai)
-4. pyttsx3 (pip install pyttsx3)
-5. pyautogui (pip install pyautogui)
-6. fuzzywuzzy (pip install fuzzywuzzy)
-7. eel (pip install eel)
-Then the usual launch
-If you want to edit the assistant:
-stt.py = speech recognition
-main.pyw = main file, this is where you make functions for commands
-config.py = the teams themselves, as well as about the project
+# Maks-Voice-Assistant
 
-_stt.py you don't have to touch it, the assistant works without it
+(poster.jpg)
 
-start_assistant.py = Starting the Assistant
+`Maks` - is a voice assistant using neural networks for things like **STT/TTS/Wake Word/NLU** etc.
 
+The main project challenges we try to achieve is:
+ - 100% offline *(no cloud)*
+ - Open source *(Full transparency)*
+ - No data collection *(I respect your privacy)*
 
-ALSO DON'T FORGET TO DOWNLOAD THE VOSK MODEL
+Our backend stack is 🐍 **[Python](https://www.python.org/)**, 🦀 **[Rust](https://www.rust-lang.org/)** with ❤️ **[Tauri](https://tauri.app/)**.<br>
+For the frontend I use 🌐 **[HTML](https://ru.wikipedia.org/wiki/HTML)** + 💥 **[CSS](https://ru.wikipedia.org/wiki/CSS)** + 🛠️ **[JavaScript](https://ru.wikipedia.org/wiki/JavaScript)** with 💙 **[jQuery](https://jquery.com/)**
 
-ASSISTANT IN RUSSIAN!
-If you want to use other languages, you need to download the VOSK model of your language, and delete the model of the Russian language, and edit the commands in config.py and main.pyw!
+*Other libraries, tools and packages can be seen in requirements.txt*
 
-© 2023 Project author: Maksolotle
+## Neural Networks
 
+This are the neural networks I am currently using:
 
-RU:
-Голосовой помощник Макс
-Бета-тест 0.0.2
-Для того чтобы его запустить тебе нужно:
-Эту папку вставить в C:/, либо же в файле "start_assistant.py" поменять путь для файла "main.pyw"
-Дальше нужно установить модули:
-1. Sounddevice (pip install sounddevice)
-2. Vosk (pip install vosk)
-3. OpenAi (pip install openai)
-4. pyttsx3 (pip install pyttsx3)
-5. pyautogui (pip install pyautogui)
-6. fuzzywuzzy (pip install fuzzywuzzy)
-7. eel (pip install eel)
+ - Speech-To-Text
+	 - [Vosk Speech Recognition Toolkit](https://github.com/alphacep/vosk-api)
+ - Text-To-Speech
+	 - [Pyttsx3](https://pypi.org/project/pyttsx3/) *(soon to be replaced by our own)*
 
-Дальше обычный запуск
-Если хочешь редактировать ассистента:
-stt.py = разпознование речи
-main.pyw = главный файл, здесь ты делаешь функции для команд
-config.py = сами команды, а также об проекте
+ - Wake Word
+	 - [Vosk Speech Recognition Toolkit](https://github.com/alphacep/vosk-api)
+ - Chat
+	- [~~ChatGPT~~](https://chat.openai.com/) (coming soon)
 
-_stt.py можешь не трогать, ассистент работает без него
+## Supported Languages
 
-start_assistant.py = запуск ассистента
+Currently, only Russian language is supported.<br>
+But soon, Ukranian and English will be added for the interface, wake-word detection and speech recognition.
 
-ТАКЖЕ НЕ ЗАБЫВАЙТЕ ТО ЧТО НУЖНО СКАЧАТЬ МОДЕЛЬ ВОСКА 
+## How to build?
 
-АССИСТЕНТ НА РУССКОМ ЯЗЫКЕ!
-Если хотите на другие языки вам нужно скачать модель VOSK вашего языка, и в config.py и main.pyw редактировать команды!
+Nothing special was used to build this project.<br>
+You need only Rust and Python installed on your system.<br>
+Other than that, all you need is to install all the dependencies and then compile the code with `cargo tauri build` command.<br>
 
-© 2023 Автор проекта: Maksolotle
+## Author
+
+Maksolotle
