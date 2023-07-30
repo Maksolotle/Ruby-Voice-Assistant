@@ -1,6 +1,6 @@
 # Maks-Voice-Assistant
 
-(poster.jpg)
+![poster](poster.jpg)
 
 `Maks` - is a voice assistant using neural networks for things like **STT/TTS/Wake Word/NLU** etc.
 
