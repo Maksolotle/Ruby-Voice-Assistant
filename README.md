@@ -1,6 +1,6 @@
-# Maks-Voice-Assistant
+# Ruby-Voice-Assistant
 
-`Maks` - is a voice assistant using neural networks for things like **STT/TTS/Wake Word/NLU** etc.
+`Ruby` - is a voice assistant using neural networks for things like **STT/TTS/Wake Word/NLU** etc.
 
 Achievements in this project:
  - 100% offline *(no cloud)*
