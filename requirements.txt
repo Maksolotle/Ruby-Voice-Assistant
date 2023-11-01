@@ -1,0 +1,11 @@
+Rust:
+Create-Tauri-App (cargo install create-tauri-app --locked)
+Tauri-Cli (cargo install tauri-cli)
+
+Python:
+Sounddevice (pip install sounddevice)
+Vosk (pip install vosk)
+OpenAi (pip install openai)
+Pyttsx3 (pip install pyttsx3)
+Pyautogui (pip install pyautogui)
+Fuzzywuzzy (pip install fuzzywuzzy)
