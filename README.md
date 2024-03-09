@@ -19,7 +19,7 @@ This are the neural networks I are currently using:
  - Text-To-Speech
 	 - ~~[Pyttsx3](https://pypi.org/project/pyttsx3/)~~
          - ~~[Silero](https://pypi.org/project/silero/)~~
-           - [Silero-Advanced](https://pypi.org/project/silero-advanced/) *(Soon there will be its own)*	
+         - [Silero-Advanced](https://pypi.org/project/silero-advanced/) *(Soon there will be its own)*	
  - Wake Word
 	 - [Vosk Speech Recognition Toolkit](https://github.com/alphacep/vosk-api)
 - Chat
