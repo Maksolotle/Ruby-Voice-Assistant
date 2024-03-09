@@ -7,7 +7,7 @@ Achievements in this project:
  - Open source *(full transparency)*
  - No data collection *(I respect your privacy)*
 
-Our backend stack is 🐍 **[Python](https://www.python.org/)** 🦀 **[Rust](https://www.rust-lang.org/)** with ❤️ **[Tauri](https://tauri.app/)**.<br>
+My backend stack is 🐍 **[Python](https://www.python.org/)** 🦀 **[Rust](https://www.rust-lang.org/)** with ❤️ **[Tauri](https://tauri.app/)**.<br>
 For the frontend I use 🌐 **[HTML](https://ru.wikipedia.org/wiki/HTML)** + 💥 **[CSS](https://ru.wikipedia.org/wiki/HTML)** + 🛠️ **[JavaScript](https://ru.wikipedia.org/wiki/JavaScript)**
 
 ## Neural Networks
