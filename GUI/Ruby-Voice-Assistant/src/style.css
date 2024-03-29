@@ -1,0 +1,286 @@
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background: -webkit-gradient(linear,left top,left bottom,from(#999),to(#27292f));
+    background: linear-gradient(to bottom,#999,#27292f);
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+
+body {
+	font-size: calc(16px + .25vw);
+    -webkit-font-feature-settings: "onum" 1;
+    font-feature-settings: "onum" 1;
+    letter-spacing: -.25px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	background: #0d0f13;;
+    color: white;
+    margin: 0;
+    text-shadow: #ffffff 0 0 20px;
+}
+
+
+#krugus {
+	background: radial-gradient(circle, rgba(87,0,86,1) 0%, rgba(51,3,40,1) 43%, #0d0f13 69%);
+	height: 600px;
+}
+
+button {
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Roboto Condensed",sans-serif;
+    text-shadow: #ffffff 0 0 20px;
+}
+.a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+	margin-top: 20px;
+	text-shadow: #ffffff 0 0 20px;
+
+}
+
+.a:hover {
+	color: #00ffd5; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
+	text-shadow: #64ffff 0 0 20px;
+	background: none
+}
+
+.but {
+	border: none;
+	background: none;
+}
+
+#but_1 {
+	margin-left: 20px;
+}
+
+
+#header {
+    height: 80px;
+    background-color: #0c1013;
+    -webkit-box-shadow: 0 0 19px 2px rgba(0, 0, 0, 0.91);
+    box-shadow: 0 0 19px 2px rgba(0, 0, 0, 0.91);
+    position: relative;
+    z-index: 100;
+}
+
+button {
+	font-family: 'Bahnschrift SemiBold';
+	border: none;
+	background: none;
+	color: white;
+        text-shadow: #ffffff 0 0 20px;
+	
+
+}
+
+#nazad {
+	margin-top: 20px;
+}
+
+#nazad_2 {
+	margin-top: 20px;
+}
+
+#nazad_3 {
+	margin-top: 20px;
+}
+
+#nazad:hover {
+	color: #00ffd5; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
+}
+
+#nazad_2:hover {
+	color: #00ffd5; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
+}
+
+#nazad_3:hover {
+	color: #00ffd5; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
+}
+
+#but_1 {
+	margin-top: 7px;
+}
+
+button:hover {
+	text-shadow: #64ffff 0 0 20px;
+	background: none;
+}
+
+
+#white{
+	background-color: gray;
+}
+#red {
+	background-color: darkred;
+}
+#green {
+	background-color: darkgreen;
+}
+#violet {
+	background-color: darkmagenta;
+}
+
+#white:hover {
+	background-color: white;
+	color: black;
+}
+#red:hover {
+	background-color: red;
+}
+#green:hover {
+	background-color: rgb(102, 255, 0);
+}
+#violet:hover {
+	background-color: violet;
+}
+#animate:hover {
+	background: url(assets/media/gif/bg18.gif) no-repeat;
+}
+
+#krug {
+	animation-name: rotate;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    margin-top: 60px;
+
+}
+
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#project {
+	margin-left: 20px;
+	font-family: 'Bahnschrift SemiBold';
+}
+
+#project:hover{
+	color: #6dffff
+}
+
+#krug_2 {
+    margin-left: 525px;
+}
+
+#kategory_1 {
+	background: none;
+	background-image: url(assets/media/orange.png);
+}
+#kategory_2 {
+	background: none;
+	background-image: url(assets/media/orange.png);
+}
+#kategory_3 {
+	background: none;
+	background-image: url(assets/media/orange.png);
+}
+#kategory_4 {
+	background: none;
+	background-image: url(assets/media/orange.png);
+}
+#kategory_5 {
+	background: none;
+	background-image: url(assets/media/orange.png);
+}
+
+#razvernut_1 {
+	background: none;
+}
+
+#razvernut_x {
+	background: none;
+}
+
+#razvernut_1:hover {
+	background-color: #ffca18;
+}
+#razvernut_x:hover {
+	background-color: #ffca18;
+}
+#razvernut_2 {
+	background: none;
+}
+
+#razvernut_x_2 {
+	background: none;
+}
+#razvernut_3 {
+	background: none;
+}
+
+#razvernut_x_3 {
+	background: none;
+}
+#razvernut_4 {
+	background: none;
+}
+
+#razvernut_x_4 {
+	background: none;
+}
+#razvernut_5 {
+	background: none;
+}
+
+#razvernut_x_5 {
+	background: none;
+}
+
+#razvernut_2:hover {
+	background-color: #ffca18;
+}
+#razvernut_x_2:hover {
+	background-color: #ffca18;
+}
+#razvernut_3:hover {
+	background-color: #ffca18;
+}
+#razvernut_x_3:hover {
+	background-color: #ffca18;
+}
+#razvernut_4:hover {
+	background-color: #ffca18;
+}
+#razvernut_x_4:hover {
+	background-color: #ffca18;
+}
+#razvernut_5:hover {
+	background-color: #ffca18;
+}
+#razvernut_x_5:hover {
+	background-color: #ffca18;
+}
+
+.custom {
+	background: none;
+	background-image: url(assets/media/lime.png);
+}
+.custom:hover {
+	background: url(assets/media/gif/bg4.gif) no-repeat;
+}
+
+h1:hover {	
+	background: url(assets/media/gif/bg4.gif) no-repeat;
+}
+
+#voice {
+	margin-left: 40px;
+}
+
+#options_text {
+	margin-left: 40px;
+}
+
+#temas {
+	margin-left: 40px;
+}

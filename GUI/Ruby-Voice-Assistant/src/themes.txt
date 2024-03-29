@@ -1,0 +1,19 @@
+		<div>
+			<button style="font-size: 30px">ㅤТемы</button>
+	
+			<button style="font-size: 20px" id="razvernut_6">⮟</button>
+			<button style="font-size: 30px" id="razvernut_x_6">X</button>
+			<h1></h1>
+		</div>
+
+		<div id="temas">
+			<div id="standart_temas">
+				<button id="white"><br>Светлая<br><br></button>
+				<button id="black"><br>Темная<br><br></button>
+			<div id="not_standart_temas">
+				<button id="red"><br>Красная<br><br></button>
+				<button id="green"><br>Зеленая<br><br></button>
+				<button id="violet"><br>Фиолетовая<br><br></button>
+				<button id="animate"><br>Анимированная<br><br></button>	
+			</div>
+		</div>	
