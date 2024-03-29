@@ -33,10 +33,10 @@ VA_CMD_LIST = yaml.safe_load(
 # tts
 # engine = pyttsx3.init()
 
-# def speak(what):
-   # print( what )
-   # engine.say( what )
-   # engine.runAndWait()
+def speak(what):
+   print( what )
+   engine.say( what )
+   engine.runAndWait()
 
 
 
@@ -150,7 +150,7 @@ def execute_cmd(cmd: str):
     if cmd == 'help':
         play("help")
     elif cmd == 'ctime':
-        speak(strftime("%H:%M"))
+        speak(strftime("%H:%M")) # Here temporarily Pyttsx3
     elif cmd == 'ruby':
         play("ready")
     elif cmd == 'joke':
