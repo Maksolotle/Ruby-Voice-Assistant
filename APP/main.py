@@ -141,7 +141,7 @@ def recognize_cmd(cmd: str):
 
 
 def execute_cmd(cmd: str):
-    #if process_exists('Maks-Voice-Assistant.exe'):
+    #if process_exists('Ruby-Voice-Assistant.exe'):
         #print()
     #else:
         #exit(0)
