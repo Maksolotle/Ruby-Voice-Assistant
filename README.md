@@ -33,7 +33,8 @@ But soon, Ukranian and English will be added for the interface, wake-word detect
 ## How to build?
 
 Nothing special was used to build this project.<br>
-You need only Python and Rust installed on your system.<br>.
+You need only Python and Rust installed on your system.<br>
+Then you need follow these [instructions](https://tauri.app/v1/guides/getting-started/setup/html-css-js) on the Tauri website.
 All libraries in the file: requirements.txt.
 
 ## Author
