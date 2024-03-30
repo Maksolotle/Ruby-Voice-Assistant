@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "Ruby-Voice-Assistant",
-    "version": "0.0.0"
+    "version": "0.0.3"
   },
   "tauri": {
     "allowlist": {
@@ -36,10 +36,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "resizable": true,
+        "resizable": false,
         "title": "Ruby-Voice-Assistant",
-        "width": 800,
-        "height": 600
+        "width": 550,
+        "height": 690
       }
     ]
   }
