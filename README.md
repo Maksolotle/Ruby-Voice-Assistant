@@ -35,6 +35,7 @@ But soon, Ukranian and English will be added for the interface, wake-word detect
 Nothing special was used to build this project.<br>
 You need only Python and Rust installed on your system.<br>
 Then you need follow these [instructions](https://tauri.app/v1/guides/getting-started/setup/html-css-js) on the Tauri website.
+And you need to download Vosk model and move it to the Ruby-Voice-Assistant\APP directory.
 All libraries in the file: requirements.txt.
 
 ## Author
