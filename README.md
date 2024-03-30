@@ -23,7 +23,7 @@ This are the neural networks I are currently using:
  - Wake Word
 	 - [Vosk Speech Recognition Toolkit](https://github.com/alphacep/vosk-api)
 - Chat
-	- [ChatGPT](https://chat.openai.com/)
+	- ~~[ChatGPT](https://chat.openai.com/)~~ *(Coming soon)*
 
 ## Supported Languages
 
