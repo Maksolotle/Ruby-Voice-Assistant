@@ -47,8 +47,8 @@ button {
 }
 
 .a:hover {
-	color: #00ffd5; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
-	text-shadow: #64ffff 0 0 20px;
+	color: violet; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
+	text-shadow: violet 0 0 20px;
 	background: none
 }
 
@@ -94,15 +94,15 @@ button {
 }
 
 #nazad:hover {
-	color: #00ffd5; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
+	color: violet; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
 }
 
 #nazad_2:hover {
-	color: #00ffd5; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
+	color: violet; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
 }
 
 #nazad_3:hover {
-	color: #00ffd5; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
+	color: violet; border-radius: 7px; transition-property: color, border-radius; transition-duration:.2s, 1s; transition-timing-function: linear, ease-in; transition-delay: 0s, 2s;
 }
 
 #but_1 {
@@ -165,7 +165,7 @@ button:hover {
 }
 
 #project:hover{
-	color: #6dffff
+	color: violet
 }
 
 #krug_2 {
