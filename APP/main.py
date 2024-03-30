@@ -197,8 +197,7 @@ def execute_cmd(cmd: str):
         pg.hotkey("winleft", "prtsc")
         play("ok2")
     elif cmd == 'open_telegram':
-         # webbrowser.open('https://телеграм.онлайн/')
-         subprocess.Popen([f'C:\\Users\\Kalyns\\AppData\\Roaming\\Telegram Desktop\\Telegram.exe'])
+         webbrowser.open('https://телеграм.онлайн/')
          play("ok1")
     elif cmd == 'close_browser':
         os.system("taskkill /im msedge.exe /f") # msedge.exe это браузер Microsoft Edge
